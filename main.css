@@ -46,8 +46,10 @@ body{
     color:red;
     text-decoration: none;
 }
+
 .navbar-active{
     color:red;
+
 }
 .home{
     margin-top:120px;
@@ -109,7 +111,7 @@ body{
     padding-bottom:0;
 }
 .works{
-    margin-bottom: 100px;
+    margin-bottom: 45.4px;
 }
 .works-question{
     color:#f21e4e;
@@ -162,4 +164,103 @@ body{
     opacity: 0;
 }.work__content:hover .work__text{
     opacity: 1;
+}
+.fix-color{
+    color:white;
+    margin-top:0;
+}
+.row-experience{
+    background:#f21e4e;
+    margin-bottom: 30px;
+}
+.experience-destription{
+    margin-left:30px;
+    text-align: right;
+    margin-right:20px;
+}
+.experience-certificate{
+    color:white;
+    font-weight: 500;
+}
+.experience-company{
+    color: white;
+    font-weight: 300;
+}
+.col-6-experience{
+    display:flex;
+    align-items: center;
+}
+.experience-time{
+    transform: rotate(0);
+    transition: transform 0.2s;
+}
+.experience-time:hover {
+    transform: rotate(360deg);
+}
+.experience-time_inside{
+    height: 145px;
+    width: 145px;
+    padding: 20px;
+    background:#9f96ef;
+    border-radius: 50%;
+    border:10px solid rgb(211,213,207);
+    text-align: center;
+    color:white;
+}
+.experience-items{
+    font-weight: 500;
+}
+.experience-items span{
+    color:white;
+    font-weight: 300;
+}
+.experience-time_inside p{
+    margin-bottom: 0;
+}
+
+/* Education */
+
+.education-row{
+    padding:100px 0 ;
+}
+.education_sumary-item-wrap{
+    background:rgb(255, 255, 255);
+    height: 365px;
+    border-radius: 20px;
+    padding:10px;
+    transform: translateY(0);
+    transition: transform 0.2s;
+}
+.education_sumary-item-wrap:hover {
+    transform: translateY(-9px);
+}
+.education_sumary-item-logo{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    transform: translateX(50px);
+}
+.education_sumary-item-detail{
+    position: absolute;
+    width: 81%;
+    bottom: 36px;
+}
+.education_sumary-item-heading{
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-align: center;
+    padding-top: 12px;
+}
+.education_sumary-item-time{
+    display:flex;
+    justify-content: space-between;
+    margin:20px 0;
+}
+.education_sumary-item-performance{
+    display:flex;
+    justify-content: space-between;
+}
+.education_sumary-item-description{
+    margin-top: 10px;
+    text-align: center;
 }
