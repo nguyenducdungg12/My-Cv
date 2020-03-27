@@ -87,6 +87,7 @@ body{
     margin-right: 10px;
     font-size: 22px;
     transition: transform 0.2s;
+
 }
 .col-5-icons:hover{
     transform: translateY(-2px);
@@ -219,7 +220,13 @@ body{
 }
 
 /* Education */
-
+.education{
+    background-image: url(./close-up-shot-of-black-computer-keyboard-1010496.jpg);
+    background-size: contain;
+    background-position:center center;
+    background-attachment: fixed;
+    
+}
 .education-row{
     padding:100px 0 ;
 }
@@ -263,4 +270,57 @@ body{
 .education_sumary-item-description{
     margin-top: 10px;
     text-align: center;
+}
+.picture-fix{
+    height: 100vh;
+    object-fit: contain;
+}
+.picture{
+    background-image: url(./black-coffee-cup-and-black-notepad-on-black-table-3815759.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.row-contact{
+    color:white;
+    margin:100px 0;
+    
+}
+.fix-dot{
+    right:55%;
+}
+.contact-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.contact-icon{
+    list-style: none;
+    padding-left: 0;
+}
+.contact-icon-item{
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    padding:2px;
+    border:2px solid #f21e4e;
+    border-radius: 50%;
+    margin-right: 5px;
+    display:inline-flex;
+    align-items: center;
+    transform: translateY(0);
+    transition:  transform 0.1s;
+}
+.contact-icon-item:hover {
+    transform: translateY(-3px);
+}
+.contact-icon-item:hover .contact-icon-link{
+    color:white;
+}
+.contact-icon-link{
+    display:block;
+    color:white;
+}
+.contact-icons-items{
+    font-size: 20px;
+    margin: 0 6px;
 }
